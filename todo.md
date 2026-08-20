@@ -5,5 +5,5 @@
 - [x] Add automated coverage for success, validation, authorization, conflict, missing entity, premature action, and failure paths.
 - [x] Add CI, strict README, and source hygiene controls.
 - [x] Validate documentation, tests, production build, dependency audit, and LAN lifecycle.
-- [ ] Create and verify the public GitHub repository.
-- [ ] Report repository-specific public evidence before beginning Project 295.
+- [x] Create and verify the public GitHub repository.
+- [x] Report repository-specific public evidence before beginning Project 295.
