@@ -1,0 +1,1 @@
+{"name":"grpc-supplier-entitlement-orchestration-platform","version":"1.0.0","type":"module","scripts":{"start":"node server.mjs","test":"vitest run"},"dependencies":{"@grpc/grpc-js":"^1.13.4","@grpc/proto-loader":"^0.8.0","express":"^5.1.0"},"devDependencies":{"vitest":"^3.2.4"}}

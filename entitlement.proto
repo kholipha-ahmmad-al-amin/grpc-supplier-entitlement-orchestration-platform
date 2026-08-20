@@ -1,0 +1,6 @@
+syntax = "proto3";
+package supplier;
+service EntitlementService { rpc Grant(EntitlementRequest) returns (EntitlementReply); rpc Activate(ActionRequest) returns (EntitlementReply); rpc Suspend(ActionRequest) returns (EntitlementReply); }
+message EntitlementRequest { string id = 1; string supplier = 2; string actor = 3; string role = 4; string expires_at = 5; }
+message ActionRequest { string id = 1; string actor = 2; string role = 3; string evidence = 4; }
+message EntitlementReply { string id = 1; string state = 2; string error = 3; }
